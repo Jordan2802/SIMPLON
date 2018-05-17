@@ -6,6 +6,7 @@ body{
   background-size: cover;
   background-attachment: fixed;
     }
+
 #blanc{
 position: fixed;
 z-index: -10;
@@ -21,58 +22,71 @@ h1{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-
-
 }
 
 p{
   font-style: italic;
   font-size: 12px;
-color: white;
-text-align: justify;
+  color: white;
+  text-align: justify;
+
 }
+
 span{
   font-weight: normal;
 }
+
 li{
   font-weight: bold;
   font-size: 14px;
-color: white;
-}
-
-h3{
   color: white;
 }
+
+
+.propos, .exp{
+  height: 200px;
+  width: 50%;
+}
+.form, .comp{
+  height: 200px;
+  width: 50%;
+}
+
+.compsec{
+  color: white;
+}
+
 .propos, .comp{
   margin-bottom: 30px;
 }
+.exp,.comp,.form{
+  overflow: auto;
+}
 
-.exp{
-  float: right;
-  width: 550px;
+.exp, .form{
   border: 2px solid black;
   box-shadow: 2px 2px 2px black;
-  margin-right: 20px;
-  padding-right: 10px;
-  padding-left: 10px;
+  }
 
-}
 .bouton{
   text-decoration: underline;
   color: white;
   cursor:pointer;
 }
+
 .bouton:hover
 {
     color: red;
     text-decoration-color: red;
 }
 
-.propos,.comp, .contact{
+.propos,.comp,.contact{
   border: 2px solid black;
   box-shadow: 2px 2px 2px black;
-  width: 450px;
-  float: left;
-  margin-left: 20px;
-  padding-left: 10px;
+  }
+  
+.contact {
+  width: 100%;
+  text-align: center;
+
 }
