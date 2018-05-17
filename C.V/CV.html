@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="CV.js"></script>
     <title>C.V</title>
   </head>
 
@@ -14,7 +15,8 @@
 <div><img src="img/white.png" alt="blanc" id="blanc">
 
 </div>
-      <h2>A propos</h2>
+      <h2 class="bouton" id="bouton_texte" onclick=afficher_cacher('texte');>A propos</h2>
+      <div id="texte">
     <ul>
       <li>Date de naissance: <span>13 mars 1986</span></li>
       <li>Age:<span>32ans</span> </li>
@@ -23,38 +25,43 @@
       <li>Moyen de locomotion: <span>voiture</span> </li>
       <li>Langues parlées: <span>français, anglais (notion)</span> </li>
     </ul>
+      </div>
 </div>
 <div class="exp">
-
-    <h2>Expériences professionnelles</h2>
-    <ul>
-      <li>Agent de sécurité pour l'usine Valéo (REIMS)</li>
-      <p>Acceuil téléphonique et physique, filtrage du publique et des
-         différents prestataires, ronde de sécurité,
-          sécurité incendie et du personnel.</p>
-      <li>Remplacement en qualité d'adjoint technique: fourrière canine</li>
-      <p>Acceuil des chiens errants, alimentation, nettoyage, soins.
-        Cullaboration avec les vétérinaire et la SPA.</p>
-      <li>Gendarme adjoint vulontaire: Brigadier Chef (Farebersviller)</li>
-      <p>Acceuil physique et téléphonique, rédactions des plaintes
-         et procès verbaux, pulices routes, surveillances,
-          relations publique, interventions.</p>
-      <li>Employé de bureau (Charleville-Mézières)</li>
-      <p>Mise en place d'une base de donnée sur les étangs ardennais, envois de courriers aux propriétaires</p>
-      <li>remplacement en qualité de gérant de foyer (Vrigne aux bois)</li>
-      <p>Gestion du foyer, entrée et sortie, location d'appartements, culaboration avec l'assistante sociale et différents prestataires(électricien, jardinier,ect...)</p>
-    </ul>
-    <h2>Formations professionnelles</h2>
+      <h2 class="bouton"id="bouton_texte2" onclick=afficher_cacher('texte2');>Expériences professionnelles</h2>
+      <div id="texte2">
+        <ul>
+          <li>Agent de sécurité pour l'usine Valéo (REIMS)</li>
+            <p>Acceuil téléphonique et physique, filtrage du publique et des
+            différents prestataires, ronde de sécurité,
+            sécurité incendie et du personnel.</p>
+          <li>Remplacement en qualité d'adjoint technique: fourrière canine</li>
+            <p>Acceuil des chiens errants, alimentation, nettoyage, soins.
+              Cullaboration avec les vétérinaire et la SPA.</p>
+          <li>Gendarme adjoint vulontaire: Brigadier Chef (Farebersviller)</li>
+            <p>Acceuil physique et téléphonique, rédactions des plaintes
+                et procès verbaux, pulices routes, surveillances,
+                relations publique, interventions.</p>
+          <li>Employé de bureau (Charleville-Mézières)</li>
+            <p>Mise en place d'une base de donnée sur les étangs ardennais, envois de courriers aux propriétaires</p>
+          <li>remplacement en qualité de gérant de foyer (Vrigne aux bois)</li>
+            <p>Gestion du foyer, entrée et sortie, location d'appartements, culaboration avec l'assistante sociale et différents prestataires(électricien, jardinier,ect...)</p>
+        </ul>
+      </div>
+    <h2 class="bouton" id="bouton_texte3" onclick=afficher_cacher('texte3');>Formations professionnelles</h2>
+<div id="texte3">
     <ul>
       <li>Préparation au brevet de technicien Superieur</li>
       <p>BTS Gestion et PRotection de la Nature, option Gestion des Espaces Naturels</p>
       <li>Baccalauréat</li>
       <p>BAC Science et Technique de l'Agronomie et de l'Environnement</p>
     </ul>
+  </div>
 </div>
 <div class="comp">
 
-    <h2>Compétences</h2>
+    <h2 class="bouton" id="bouton_texte4" onclick=afficher_cacher('texte4');>Compétences</h2>
+<div id="texte4">
     <ul>
       <li>Html5</li>
       <li>CSS3</li>
@@ -69,6 +76,7 @@
       <li>Suite office</li>
       <li>Multimédia, internet</li>
     </ul>
+  </div>
 </div>
 <div class="contact">
 
@@ -82,5 +90,13 @@
       <li>mail: sha08dow@hotmail.fr</li>
     </ul>
 </div>
+<script type="text/javascript">
+  //<!--
+      afficher_cacher('texte');
+      afficher_cacher('texte2');
+      afficher_cacher('texte3');
+      afficher_cacher('texte4');
+  -->//
+  </script>
   </body>
 </html>

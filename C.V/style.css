@@ -39,18 +39,7 @@ li{
   font-size: 14px;
 color: white;
 }
-h2{
-  text-decoration: underline;
-  color: white;
-}
-.propos,.comp, .contact{
-  border: 2px solid black;
-  box-shadow: 2px 2px 2px black;
-  width: 450px;
-  float: left;
-  margin-left: 20px;
-  padding-left: 10px;
-}
+
 h3{
   color: white;
 }
@@ -67,4 +56,23 @@ h3{
   padding-right: 10px;
   padding-left: 10px;
 
+}
+.bouton{
+  text-decoration: underline;
+  color: white;
+  cursor:pointer;
+}
+.bouton:hover
+{
+    color: red;
+    text-decoration-color: red;
+}
+
+.propos,.comp, .contact{
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px black;
+  width: 450px;
+  float: left;
+  margin-left: 20px;
+  padding-left: 10px;
 }
