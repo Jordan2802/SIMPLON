@@ -42,15 +42,12 @@ li{
   color: white;
 }
 
+.propos, .exp,.form, .comp{
+  height: 200px;
+  width: 50%;
+  background-color: rgba( 177, 219, 235, 0.3);
+}
 
-.propos, .exp{
-  height: 200px;
-  width: 50%;
-}
-.form, .comp{
-  height: 200px;
-  width: 50%;
-}
 
 .compsec{
   color: white;
@@ -76,17 +73,17 @@ li{
 
 .bouton:hover
 {
-    color: red;
-    text-decoration-color: red;
+    color: #309cc4;
+    text-decoration-color: #309cc4;
 }
 
 .propos,.comp,.contact{
   border: 2px solid black;
   box-shadow: 2px 2px 2px black;
   }
-  
+
 .contact {
   width: 100%;
   text-align: center;
-
+  background-color: rgba( 177, 219, 235, 0.3);
 }
